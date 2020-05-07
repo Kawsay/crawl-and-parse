@@ -9,7 +9,6 @@ require 'rtesseract'
 require './extended_rtesseract'
 require 'csv'
 
-
 # Holds functionality common to all crawlers
 class BaseCrawler
   attr_accessor :errors, :results
