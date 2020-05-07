@@ -18,7 +18,6 @@ module ExtendedRTesseract
 
       Dir.mkdir(dir_path) unless Dir.exists?(dir_path)
 
-
       `curl -s #{@source} > #{dir_path}/image_#{timestamp}`
       
       true
