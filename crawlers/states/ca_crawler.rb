@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class CaCrawler < BaseCrawler
+  using ExtendedRTesseract
 
   protected
 

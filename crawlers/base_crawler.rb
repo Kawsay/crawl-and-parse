@@ -6,7 +6,9 @@ require 'selenium-webdriver'
 require 'pdf-reader'
 require 'humanize'
 require 'rtesseract'
+require './extended_rtesseract'
 require 'csv'
+
 
 # Holds functionality common to all crawlers
 class BaseCrawler
